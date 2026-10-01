@@ -8,6 +8,7 @@ public class DemoSolid {
         figuras.add(new CirculoFigura(5));
         figuras.add(new RectanguloFigura(4, 6));
         figuras.add(new TrianguloFigura(3, 7));
+        figuras.add(new CuadradoFigura(4));
 
         InformeAreas.mostrarAreas(figuras);
     }
